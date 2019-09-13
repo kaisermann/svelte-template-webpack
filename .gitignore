@@ -1,5 +1,8 @@
 .DS_Store
 node_modules
 public/bundle.*
+public/libs_*
+public/runtime.*
+public/polyfills.*
 package-lock.json
 yarn.lock

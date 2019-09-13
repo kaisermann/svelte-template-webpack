@@ -5,9 +5,10 @@ module.exports = {
       '@babel/preset-env',
       {
         loose: true,
-        /** Only parse modules if testing. If not, let webpack handle it */
+        // Only parse modules if testing. If not, let webpack handle it
         modules: false,
-        debug: true,
+        // set to true to see which polyfill is added to each file
+        debug: false,
         forceAllTransforms: true,
         useBuiltIns: 'usage',
         corejs: { version: 3, proposals: true },
